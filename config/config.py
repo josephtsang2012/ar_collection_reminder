@@ -39,7 +39,7 @@ DEFAULT_CONTACT_EMAIL = "DEFAULT_EMAIL"
 # White logo embedded in emails via CID (Content-ID).
 # Place topcast_white.png under templates/emails/ (or set a full path).
 # HTML uses src="cid:topcast_logo" — works in Outlook without public hosting.
-LOGO_PATH = os.path.join("templates", "emails", "topcast_white.png")
+LOGO_PATH = os.path.join("templates", "emails", "company_logo.png")
 
 # Trial mode: only send to these (Customer Name + Company No.) pairs
 # Exact customer name match + company number
