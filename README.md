@@ -69,7 +69,7 @@ DB_PASSWORD=...
 
 SENDER_EMAIL=your.mailbox@company.com
 SENDER_PASSWORD=your_app_password
-SENDER_NAME=TOPCAST Accounts Receivable Department
+SENDER_NAME=Accounts Receivable Department
 SMTP_SERVER=smtp.office365.com
 SMTP_PORT=587
 
