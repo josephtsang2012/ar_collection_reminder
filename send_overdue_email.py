@@ -8,9 +8,9 @@ from email import encoders
 import smtplib
 
 # ================== CONFIG ==================
-SENDER_NAME = "Memo Test"
-SENDER_EMAIL = "memo.titat@topcast.com"   # Change this
-SENDER_PASSWORD = r"N&aF9PxyD%d6"           # Use App Password if 2FA
+SENDER_NAME = "Test"
+SENDER_EMAIL = "test_email"                 # Change this
+SENDER_PASSWORD = r"sender_pw"              # Use App Password if 2FA
 SMTP_SERVER = "smtp.office365.com"          # Outlook / Office 365
 SMTP_PORT = 587
 # ===========================================
