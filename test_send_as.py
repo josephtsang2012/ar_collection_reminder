@@ -20,12 +20,11 @@ from email.mime.text import MIMEText
 from config.config import EMAIL_CONFIG, TEST_EMAIL
 
 # ============ EDIT THESE FOR YOUR TEST ============
-FROM_ADDRESS = "SOA.TASCL@topcast.com"   # From (DG) — needs Send As on this address
-REPLY_TO = "TASCL_AR@topcast.com"      # Reply-To
-TO_ADDRESS = "memotitat2@gmail.com"   # None = use TEST_EMAIL from .env
+FROM_ADDRESS = "From_email_address"   # From (DG) — needs Send As on this address
+REPLY_TO = "Reply_to_email_address"      # Reply-To
+TO_ADDRESS = "To_email_address"   # None = use TEST_EMAIL from .env
 CC_ADDRESSES = [                        # CC list (leave empty [] for no CC)
-    "memo.titat@topcast.com",
-    "joseph.tsang@topcast.com"
+    "Cc_email_address"
 ]
 SUBJECT = "TEST: Send As Group Email check"
 # ==================================================
